@@ -25,7 +25,7 @@ img{
     margin: 0;
 }
 .container{
-    width: 85%;
+    width: 80%;
     margin: auto;
 }
 h1, h2, h3, h4, h5, h6{
@@ -37,6 +37,10 @@ h1, h2, h3, h4, h5, h6{
 p{
     font-size: 17px;
     line-height: 32px;
+    margin-top: 0;
+}
+.col{
+    width: 100%;
 }
 /*====== Header ======*/
 .site-header{
@@ -48,6 +52,17 @@ p{
     left: 0;
     background-color: #FFF;
     z-index: 99;
+}
+.site-header .container{
+    width: 85%;
+}
+.site-header .header-gb{
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to left, #79bfd4, #98c852);
 }
 .site-header nav{
     align-items: center;

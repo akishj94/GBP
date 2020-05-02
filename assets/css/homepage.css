@@ -56,3 +56,170 @@
     padding: 10px 20px;
     border: 1px solid #FFF;
 }
+.benefits-os{
+    padding: 50px 0;
+}
+.benefits-os h2.site-title{
+    width: 100%;
+}
+.benefits-os .benefits-col{
+    color: #FFF;
+    width: calc(33.333% - 20px);
+    margin: 0 0 30px;
+    text-align: center;
+}
+.benefits-os .benefits-col.hm{
+    margin-left: auto;
+    margin-right: auto;
+}
+.benefits-content {
+    background: transparent linear-gradient(100deg, #92c66a 0%, #43b6d8 95%) 0% 0% no-repeat padding-box;
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    padding: 0 30px;
+}
+.benefits-os p{    
+    margin-bottom: 50px;
+}
+.benefits-os .benefits-col h4{
+    margin: 0;
+    font-size: 24px;
+    width: 100%;
+}
+.benefits-content img{
+    width: 80px;
+    margin-bottom: 30px;
+}
+.benefits-content:before, .benefits-content:after{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width: 300px;
+    box-shadow: 0 15px 10px #c8c8c8;
+    transform: rotate(-3deg);
+}
+.benefits-content:after{
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+}
+.home-products .site-title{
+    margin-bottom: 40px;
+}
+.home-products .row{
+    justify-content: space-between;
+}
+.product-col{
+    width: calc(33.333% - 20px);    width: calc(33.333% - 20px);
+    margin-bottom: 40px;
+}
+.product-image{
+    height: 400px;
+}
+.product-image > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0 12px;
+}
+.product-description{
+    line-height: 22px;
+    font-size: 15px;
+}
+.product-link{
+    margin: 12px 0 0;
+    display: inline-block;
+    font-size: 15px;
+    color: #709b30;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.view-more{
+    margin-top: 30px;
+    text-align: center;
+}
+.view-more a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #709b30;
+}
+.nutrional-values{
+    background-image: url('../images/nutrional-values.jpg');
+    padding: 90px 0;
+    color: #FFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 50px 0 90px;
+    position: relative;
+}
+.nutrional-values:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: transparent linear-gradient(100deg, #b5f187 0%, #43b6d8 95%) 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+}
+.nutrional-values:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #133b46;
+    opacity: 0.6;
+}
+.nutrional-values .container{
+    position: relative;
+    z-index: 9;
+}
+.nutrional-values a{
+    color: #FFF;
+    font-weight: 600;
+}
+.nv-row{
+    margin-top: 70px;
+}
+.nv-col {
+    flex: 1;
+    text-align: center;
+}
+.nv-value{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.nv-cat{
+    font-size: 24px;
+}
+.sorghum-syrup{
+    margin: 50px 0 90px;
+}
+.sorghum-syrup .row{
+    align-items: center;
+}
+.syrup-image-col {
+    width: 40%;
+}
+.syrup-content {
+    width: 55%;
+    margin-left: auto;
+}
