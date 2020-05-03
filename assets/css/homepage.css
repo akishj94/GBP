@@ -24,7 +24,20 @@
     margin-top: 30PX;
 }
 .about-us-home{
-    padding: 80px 0;
+    padding: 80px 0 10px;
+}
+.about-us-home .row{
+    align-items: center;
+}
+.about-home-content{
+    width: 55%;
+    margin-right: auto;
+}
+.about-home-image{
+    background: #f7f7f7;
+    height: 400px;
+    width: 40%;
+
 }
 .honey-comparison{
     background: #85b342;
@@ -117,6 +130,9 @@
 }
 .home-products .row{
     justify-content: space-between;
+}
+.home-products .row:nth-child(2){
+    margin-top: 50px;
 }
 .product-col{
     width: calc(33.333% - 20px);    width: calc(33.333% - 20px);

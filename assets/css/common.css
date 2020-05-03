@@ -93,15 +93,48 @@ p{
 .site-navigation-wrap ul li a{
     color: #000;
 }
+.site-navigation-wrap ul li img{
+    width: 20px;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 5px;
+}
 /*======  Header Ends ====== */
 
 /*======  Footer ====== */
 .site-footer{
     margin-top: 80px;
+    background-color: #f7f7f7;
 }
 .site-footer .container{
     padding: 50px 0;
     border-top: 1px solid #d6d3d7;
+}
+.site-footer .col{
+    width: 32%;
+}
+.footer-logo{
+    margin-bottom: 20px;
+}
+.footer-logo a{
+    font-size: 20px;
+}
+.footer-logo a img{
+    width: 25px;
+}
+.site-footer ul, .site-footer ul li a{
+    color: #000;
+    letter-spacing: 0.3px;
+}
+.site-footer li{
+    color: #5b5b5b;
+    line-height: 24px;
+}
+.site-footer ul li:not(:last-of-type){
+    margin-bottom: 10px;
+}
+.site-footer ul li a{
+    font-weight: 600;
 }
 /*======  Footer Ends ====== */
 
